@@ -1,0 +1,16 @@
+<ion-content class="ion-padding">
+  <div class="background-image"></div>
+  <div class="container">
+    <div class="content">
+      <ion-img class="logoLogin" src="assets/icon/logo.png"></ion-img>
+      <ion-item>
+        <ion-input [(ngModel)]="mdl_usuario" placeholder="Usuario"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="mdl_contrasena" type="password" placeholder="Contraseña"></ion-input>
+      </ion-item>
+      <ion-button expand="block" (click)="ingresar()">Ingresar</ion-button>
+      <ion-button expand="block" (click)="registrarse()">Registrarse</ion-button>
+    </div>
+  </div>
+</ion-content>

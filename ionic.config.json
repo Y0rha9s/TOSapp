@@ -1,0 +1,7 @@
+{
+  "name": "app-tos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
